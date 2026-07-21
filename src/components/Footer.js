@@ -32,25 +32,13 @@ const Footer = () => {
       <p className="d-fle align-items-start text-white">
         
         <h6><i className="fas fa-map-marker-alt me-2 mt-1 " style={{ color: "#CF191F" }}></i>Trustline Travels</h6>
-        <h6>Mumbai Address</h6>
-        Shop Number 57,
-Prabhat Colony Opp.
-Panbai International School
-Vimladevi Road,Santacruz(E)
-Mumbai Maharashtra-400055.
+        Office No 3 ,Shive Pride, Lane No 14, Swami Samarth Nagar, Sathe Nagar, Lohegaon, Pune, Maharashtra-411047
 
       </p>
 
 
 
-        {/* Address */}
-      <p className="d-fle align-items-start text-white">
-        
-        <h6><i className="fas fa-map-marker-alt me-2 mt-1 " style={{ color: "#CE8304" }}></i>Trustline Travels</h6>
-        <h6>Pune Address</h6>
-      Survey no 51/1, Shreyas building, Krishna chowk opposite bank of baroda, Sangavi, Pune 411027,  Maharashtra
-
-      </p>
+      
     </div>
 
     {/* App Icons */}
@@ -115,25 +103,25 @@ Mumbai Maharashtra-400055.
 <li><Link to="/Kharadi-to-Mumbai-Cabs"><i className="fa fa-car darkcolor"></i> Kharadi to Mumbai Cabs</Link></li>
 <li><Link to="/Shivajinagar-to-Mumbai-Cabs"><i className="fa fa-car darkcolor"></i> Shivajinagar to Mumbai Cabs</Link></li>
 <li><Link to="/Pune-to-Mumbai-Ertiga-Cab"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Ertiga Cab</Link></li>
-<li><Link to="/Pune-to-Mumbai-Innova-Crysta-Cabs"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Innova Crysta Cabs</Link></li>
-<li><Link to="/Pune-to-Mumbai-Sedan-Cab"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Sedan Cab</Link></li>
-<li><Link to="/Kondhwa-to-Mumbai-Cabs"><i className="fa fa-car darkcolor"></i> Kondhwa to Mumbai Cabs</Link></li>
-<li><Link to="/Viman-Nagar-to-Mumbai-Cabs"><i className="fa fa-car darkcolor"></i> Viman Nagar to Mumbai Cabs</Link></li>
-<li><Link to="/Katraj-to-Mumbai-Cab-Service"><i className="fa fa-car darkcolor"></i> Katraj to Mumbai Cab Service</Link></li>
-<li><Link to="/Pune-Station-to-Mumbai-Cabs-Service"><i className="fa fa-car darkcolor"></i> Pune Station to Mumbai Cabs Service</Link></li>
-<li><Link to="/Boat-Club-Road-to-Mumbai-Cabs"><i className="fa fa-car darkcolor"></i> Boat Club Road to Mumbai Cabs</Link></li>
-<li><Link to="/Vishrantwadi-to-Mumbai-Cabs"><i className="fa fa-car darkcolor"></i> Vishrantwadi to Mumbai Cabs</Link></li>
-<li><Link to="/Alandi-to-Mumbai-Cabs-Service"><i className="fa fa-car darkcolor"></i> Alandi to Mumbai Cabs Service</Link></li>
-<li><Link to="/Wagholi-to-Mumbai-Cabs"><i className="fa fa-car darkcolor"></i> Wagholi to Mumbai Cabs</Link></li>
-<li><Link to="/Cab-Service-in-Pimpri-Chinchwad"><i className="fa fa-car darkcolor"></i> Cab Service in Pimpri Chinchwad</Link></li>
-<li><Link to="/Cheapest-Cab-Service-in-Pune"><i className="fa fa-car darkcolor"></i> Cheapest Cab Service in Pune</Link></li>
-<li><Link to="/Best-Cab-Service-in-Pune"><i className="fa fa-car darkcolor"></i> Best Cab Service in Pune</Link></li>
-<li><Link to="/Pune-to-Mumbai-Round-Trip-Cab-Fare"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Round Trip Cab Fare</Link></li>
-<li><Link to="/Pune-to-Mumbai-Cab-Booking"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Cab Booking</Link></li>
-<li><Link to="/Book-Cab-from-Pune-to-Mumbai"><i className="fa fa-car darkcolor"></i> Book Cab from Pune to Mumbai</Link></li>
-<li><Link to="/Pune-to-Navi-Mumbai-Airport-Cab"><i className="fa fa-car darkcolor"></i> Pune to Navi Mumbai Airport Cab</Link></li>
-<li><Link to="/Pune-to-Navi-Mumbai-Cab"><i className="fa fa-car darkcolor"></i> Pune to Navi Mumbai Cab</Link></li>
-<li><Link to="/Pune-to-Navi-Mumbai-Innova-Crysta"><i className="fa fa-car darkcolor"></i> Pune to Navi Mumbai Innova Crysta</Link></li>
+<li><Link to="/Pune-to-Mumbai-Innova-Crysta-Cabs" ><i className="fa fa-car darkcolor"></i> Pune to Mumbai Innova Crysta Cabs</Link></li>
+<li><Link to="/Pune-to-Mumbai-Sedan-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Sedan Cab</Link></li>
+<li><Link to="/Kondhwa-to-Mumbai-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Kondhwa to Mumbai Cabs</Link></li>
+<li><Link to="/Viman-Nagar-to-Mumbai-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Viman Nagar to Mumbai Cabs</Link></li>
+<li><Link to="/Katraj-to-Mumbai-Cab-Service" className="d-none"><i className="fa fa-car darkcolor"></i> Katraj to Mumbai Cab Service</Link></li>
+<li><Link to="/Pune-Station-to-Mumbai-Cabs-Service" className="d-none"><i className="fa fa-car darkcolor"></i> Pune Station to Mumbai Cabs Service</Link></li>
+<li><Link to="/Boat-Club-Road-to-Mumbai-Cabs" className="d-none" ><i className="fa fa-car darkcolor"></i> Boat Club Road to Mumbai Cabs</Link></li>
+<li><Link to="/Vishrantwadi-to-Mumbai-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Vishrantwadi to Mumbai Cabs</Link></li>
+<li><Link to="/Alandi-to-Mumbai-Cabs-Service" className="d-none"><i className="fa fa-car darkcolor"></i> Alandi to Mumbai Cabs Service</Link></li>
+<li><Link to="/Wagholi-to-Mumbai-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Wagholi to Mumbai Cabs</Link></li>
+<li><Link to="/Cab-Service-in-Pimpri-Chinchwad" className="d-none"><i className="fa fa-car darkcolor"></i> Cab Service in Pimpri Chinchwad</Link></li>
+<li><Link to="/Cheapest-Cab-Service-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Cheapest Cab Service in Pune</Link></li>
+<li><Link to="/Best-Cab-Service-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Best Cab Service in Pune</Link></li>
+<li><Link to="/Pune-to-Mumbai-Round-Trip-Cab-Fare" className="d-none"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Round Trip Cab Fare</Link></li>
+<li><Link to="/Pune-to-Mumbai-Cab-Booking" className="d-none"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Cab Booking</Link></li>
+<li><Link to="/Book-Cab-from-Pune-to-Mumbai" className="d-none"><i className="fa fa-car darkcolor"></i> Book Cab from Pune to Mumbai</Link></li>
+<li><Link to="/Pune-to-Navi-Mumbai-Airport-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Pune to Navi Mumbai Airport Cab</Link></li>
+<li><Link to="/Pune-to-Navi-Mumbai-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Pune to Navi Mumbai Cab</Link></li>
+<li><Link to="/Pune-to-Navi-Mumbai-Innova-Crysta" className="d-none"><i className="fa fa-car darkcolor"></i> Pune to Navi Mumbai Innova Crysta</Link></li>
 
 
                     </ul>
@@ -164,22 +152,22 @@ Mumbai Maharashtra-400055.
 {/* <li><Link to="/Pune-to-Mumbai-Airport-Drop-Innova"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Airport Drop Innova</Link></li> */}
 <li><Link to="/Pune-to-Mumbai-Airport-Ertiga-Cab"><i className="fa fa-car darkcolor"></i> Pune to Mumbai Airport Ertiga Cab</Link></li>
 <li><Link to="/Best-Cab-Service-Pune-to-Mumbai"><i className="fa fa-car darkcolor"></i> Best Cab Service Pune to Mumbai</Link></li>
-<li><Link to="/Pune-Airport-to-Mumbai-Airport-Cab"><i className="fa fa-car darkcolor"></i> Pune Airport to Mumbai Airport Cab</Link></li>
-<li><Link to="/Best-Mumbai-to-Pune-Cab-Service"><i className="fa fa-car darkcolor"></i> Best Mumbai to Pune Cab Service</Link></li>
-<li><Link to="/Online-Mumbai-to-Pune-Cab-Booking"><i className="fa fa-car darkcolor"></i> Online Mumbai to Pune Cab Booking</Link></li>
-<li><Link to="/Mumbai-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Mumbai to Pune Cabs</Link></li>
-<li><Link to="/Mumbai-Airport-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Mumbai Airport to Pune Cabs</Link></li>
-<li><Link to="/Dadar-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Dadar to Pune Cabs</Link></li>
-<li><Link to="/Mumbai-to-Pune-One-Way-Cab"><i className="fa fa-car darkcolor"></i> Mumbai to Pune One Way Cab</Link></li>
-<li><Link to="/Andheri-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Andheri to Pune Cabs</Link></li>
-<li><Link to="/Bandra-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Bandra to Pune Cabs</Link></li>
-<li><Link to="/Santacruz-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Santacruz to Pune Cabs</Link></li>
-<li><Link to="/Mumbai-Central-to-Pune-Cab"><i className="fa fa-car darkcolor"></i> Mumbai Central to Pune Cab</Link></li>                   
-                   <li><Link to="/Borivali-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Borivali to Pune Cabs</Link></li>
-<li><Link to="/Mumbai-to-Pimpri-Chinchwad-Cab"><i className="fa fa-car darkcolor"></i> Mumbai to Pimpri Chinchwad Cab</Link></li>
-<li><Link to="/Navi-Mumbai-to-Pune-Cab"><i className="fa fa-car darkcolor"></i> Navi Mumbai to Pune Cab</Link></li>
-<li><Link to="/Mumbai-Airport-to-Pune-City-Cab"><i className="fa fa-car darkcolor"></i> Mumbai Airport to Pune City Cab</Link></li>
-<li><Link to="/Mumbai-to-Pune-Daily-Cabs"><i className="fa fa-car darkcolor"></i> Mumbai to Pune Daily Cabs</Link></li>
+<li><Link to="/Pune-Airport-to-Mumbai-Airport-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Pune Airport to Mumbai Airport Cab</Link></li>
+<li><Link to="/Best-Mumbai-to-Pune-Cab-Service" className="d-none"><i className="fa fa-car darkcolor"></i> Best Mumbai to Pune Cab Service</Link></li>
+<li><Link to="/Online-Mumbai-to-Pune-Cab-Booking" className="d-none"><i className="fa fa-car darkcolor"></i> Online Mumbai to Pune Cab Booking</Link></li>
+<li><Link to="/Mumbai-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai to Pune Cabs</Link></li>
+<li><Link to="/Mumbai-Airport-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai Airport to Pune Cabs</Link></li>
+<li><Link to="/Dadar-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Dadar to Pune Cabs</Link></li>
+<li><Link to="/Mumbai-to-Pune-One-Way-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai to Pune One Way Cab</Link></li>
+<li><Link to="/Andheri-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Andheri to Pune Cabs</Link></li>
+<li><Link to="/Bandra-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Bandra to Pune Cabs</Link></li>
+<li><Link to="/Santacruz-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Santacruz to Pune Cabs</Link></li>
+<li><Link to="/Mumbai-Central-to-Pune-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai Central to Pune Cab</Link></li>                   
+                   <li><Link to="/Borivali-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Borivali to Pune Cabs</Link></li>
+<li><Link to="/Mumbai-to-Pimpri-Chinchwad-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai to Pimpri Chinchwad Cab</Link></li>
+<li><Link to="/Navi-Mumbai-to-Pune-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Navi Mumbai to Pune Cab</Link></li>
+<li><Link to="/Mumbai-Airport-to-Pune-City-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai Airport to Pune City Cab</Link></li>
+<li><Link to="/Mumbai-to-Pune-Daily-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai to Pune Daily Cabs</Link></li>
 
                     </ul>
                   </div>
@@ -208,26 +196,26 @@ Mumbai Maharashtra-400055.
 <li><Link to="/Panvel-to-Pune-Cab"><i className="fa fa-car darkcolor"></i> Panvel to Pune Cab</Link></li>
 <li><Link to="/Church-Gate-to-Pune-Cab-Service"><i className="fa fa-car darkcolor"></i> Church Gate to Pune Cab Service</Link></li>
 <li><Link to="/Byculla-to-Pune-Cab-Service"><i className="fa fa-car darkcolor"></i> Byculla to Pune Cab Service</Link></li>
-<li><Link to="/Vashi-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Vashi to Pune Cabs</Link></li>
-<li><Link to="/Kharghar-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Kharghar to Pune Cabs</Link></li>
-<li><Link to="/Mankhurd-to-Pune-Cab"><i className="fa fa-car darkcolor"></i> Mankhurd to Pune Cab</Link></li>
+<li><Link to="/Vashi-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Vashi to Pune Cabs</Link></li>
+<li><Link to="/Kharghar-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Kharghar to Pune Cabs</Link></li>
+<li><Link to="/Mankhurd-to-Pune-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Mankhurd to Pune Cab</Link></li>
 {/* <li><Link to="/Mumbai-to-Pune-Daily-Cabs"><i className="fa fa-car darkcolor"></i> Mumbai to Pune Daily Cabs</Link></li> */}
-<li><Link to="/Pune-Mumbai-Daily-Cab-Service"><i className="fa fa-car darkcolor"></i> Pune Mumbai Daily Cab Service</Link></li>
-<li><Link to="/One-Way-Taxi-Mumbai-to-Pune"><i className="fa fa-car darkcolor"></i> One Way Taxi Mumbai to Pune</Link></li>
-<li><Link to="/Innova-Crysta-on-Rent-in-Pune"><i className="fa fa-car darkcolor"></i> Innova Crysta on Rent in Pune</Link></li>
-<li><Link to="/Ertiga-Cab-Booking-in-Pune"><i className="fa fa-car darkcolor"></i> Ertiga Cab Booking in Pune</Link></li>
-<li><Link to="/Kia-Carens-On-Rent-in-Pune"><i className="fa fa-car darkcolor"></i> Kia Carens On Rent in Pune</Link></li>
-<li><Link to="/Swift-Dzire-On-Rent-in-Pune"><i className="fa fa-car darkcolor"></i> Swift Dzire On Rent in Pune</Link></li>
-<li><Link to="/Sedan-Cabs-Booking-in-Pune"><i className="fa fa-car darkcolor"></i> Sedan Cabs Booking in Pune</Link></li>
-<li><Link to="/Force-Urbania-On-Rent-in-Pune"><i className="fa fa-car darkcolor"></i> Force Urbania On Rent in Pune</Link></li>
-<li><Link to="/Fortuner-On-Rent-in-Pune"><i className="fa fa-car darkcolor"></i> Fortuner On Rent in Pune</Link></li>
-<li><Link to="/Mira-Road-to-Pune-Cab"><i className="fa fa-car darkcolor"></i> Mira Road to Pune Cab</Link></li>
-<li><Link to="/Dahisar-to-Pune-Cabs"><i className="fa fa-car darkcolor"></i> Dahisar to Pune Cabs</Link></li>
-<li><Link to="/Mahim-to-Pune-Cab-Service"><i className="fa fa-car darkcolor"></i> Mahim to Pune Cab Service</Link></li>
-<li><Link to="/Malad-to-Pune-Cab"><i className="fa fa-car darkcolor"></i> Malad to Pune Cab</Link></li>
-<li><Link to="/Navi-Mumbai-Airport-Cab-Service"><i className="fa fa-car darkcolor"></i> Navi Mumbai Airport Cab Service</Link></li>
-<li><Link to="/Mumbai-Airport-Cab-Service"><i className="fa fa-car darkcolor"></i> Mumbai Airport Cab Service</Link></li>
-<li><Link to="/Mumbai-to-Pune-Airport-Cabs"><i className="fa fa-car darkcolor"></i> Mumbai to Pune Airport Cabs</Link></li>
+<li><Link to="/Pune-Mumbai-Daily-Cab-Service" className="d-none"><i className="fa fa-car darkcolor"></i> Pune Mumbai Daily Cab Service</Link></li>
+<li><Link to="/One-Way-Taxi-Mumbai-to-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> One Way Taxi Mumbai to Pune</Link></li>
+<li><Link to="/Innova-Crysta-on-Rent-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Innova Crysta on Rent in Pune</Link></li>
+<li><Link to="/Ertiga-Cab-Booking-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Ertiga Cab Booking in Pune</Link></li>
+<li><Link to="/Kia-Carens-On-Rent-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Kia Carens On Rent in Pune</Link></li>
+<li><Link to="/Swift-Dzire-On-Rent-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Swift Dzire On Rent in Pune</Link></li>
+<li><Link to="/Sedan-Cabs-Booking-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Sedan Cabs Booking in Pune</Link></li>
+<li><Link to="/Force-Urbania-On-Rent-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Force Urbania On Rent in Pune</Link></li>
+<li><Link to="/Fortuner-On-Rent-in-Pune" className="d-none"><i className="fa fa-car darkcolor"></i> Fortuner On Rent in Pune</Link></li>
+<li><Link to="/Mira-Road-to-Pune-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Mira Road to Pune Cab</Link></li>
+<li><Link to="/Dahisar-to-Pune-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Dahisar to Pune Cabs</Link></li>
+<li><Link to="/Mahim-to-Pune-Cab-Service" className="d-none"><i className="fa fa-car darkcolor"></i> Mahim to Pune Cab Service</Link></li>
+<li><Link to="/Malad-to-Pune-Cab" className="d-none"><i className="fa fa-car darkcolor"></i> Malad to Pune Cab</Link></li>
+<li><Link to="/Navi-Mumbai-Airport-Cab-Service" className="d-none"><i className="fa fa-car darkcolor"></i> Navi Mumbai Airport Cab Service</Link></li>
+<li><Link to="/Mumbai-Airport-Cab-Service" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai Airport Cab Service</Link></li>
+<li><Link to="/Mumbai-to-Pune-Airport-Cabs" className="d-none"><i className="fa fa-car darkcolor"></i> Mumbai to Pune Airport Cabs</Link></li>
                     </ul>
                   </div>
                 </div>
