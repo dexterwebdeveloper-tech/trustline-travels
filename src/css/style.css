@@ -8384,7 +8384,7 @@ blockquote.author-quote .twm-bq-content .twm-bq-atr-name:before {
 
 /*______Explore Section______*/
 .twm-explore-section-wrap {
-  margin-top: 140px;
+  margin-top: 120px;
   border-radius: 100px 100px 0px 0px;
 }
 @media (max-width: 1199px) {

@@ -26,30 +26,31 @@ const Enquiry = () => {
     });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    setLoading(true);
-    setStatus("");
+  setLoading(true);
+  setStatus("");
 
-    const data = new FormData();
+  const data = new FormData();
 
-    data.append("access_key", "YOUR_WEB3FORMS_ACCESS_KEY");
-    data.append("subject", "New Trustline Travels Enquiry");
+  data.append("access_key", "ee23a113-a611-4abe-8b03-b4a343168bb7");
+  data.append("subject", "New Trustline Travels Enquiry");
 
-    Object.keys(formData).forEach((key) => {
-      data.append(key, formData[key]);
+  // Send all form fields
+  Object.keys(formData).forEach((key) => {
+    data.append(key, formData[key]);
+  });
+
+  try {
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: data,
     });
 
-    const response = await fetch(
-      "https://api.web3forms.com/submit",
-      {
-        method: "POST",
-        body: data,
-      }
-    );
-
     const result = await response.json();
+
+    console.log(result);
 
     if (result.success) {
       setStatus("success");
@@ -67,13 +68,17 @@ const Enquiry = () => {
         passengers: "1",
         message: "",
       });
-
     } else {
+      console.log(result);
       setStatus("error");
     }
+  } catch (err) {
+    console.error(err);
+    setStatus("error");
+  }
 
-    setLoading(false);
-  };
+  setLoading(false);
+};
 
   return (
 
@@ -180,16 +185,53 @@ const Enquiry = () => {
                   onChange={handleChange}
                   required
                 >
-                  <option value="">Select Vehicle</option>
-                  <option>Swift Dzire</option>
-                  <option>Maruti Ertiga</option>
-                  <option>Toyota Rumion</option>
-                  <option>Kia Carens</option>
-                  <option>Innova</option>
-                  <option>Innova Crysta</option>
-                  <option>Tempo Traveller</option>
-                  <option>Force Urbania</option>
-                  <option>Luxury Bus</option>
+            <option value="">Select Vehicle</option>
+
+{/* Sedan */}
+<option>Swift Dzire</option>
+<option>Honda Amaze</option>
+<option>Hyundai Aura</option>
+
+{/* MPV */}
+<option>Maruti Ertiga</option>
+<option>Toyota Rumion</option>
+<option>Kia Carens</option>
+
+{/* SUV */}
+<option>Toyota Innova</option>
+<option>Toyota Innova Crysta</option>
+<option>Toyota Hycross</option>
+
+{/* Tempo Traveller */}
+<option>9 Seater Tempo Traveller</option>
+<option>12 Seater Tempo Traveller</option>
+<option>13 Seater Tempo Traveller</option>
+<option>15 Seater Tempo Traveller</option>
+<option>17 Seater Tempo Traveller</option>
+<option>20 Seater Tempo Traveller</option>
+<option>26 Seater Tempo Traveller</option>
+
+{/* Force Urbania */}
+<option>10 Seater Force Urbania</option>
+<option>13 Seater Force Urbania</option>
+<option>17 Seater Force Urbania</option>
+
+{/* Mini Bus */}
+<option>20 Seater Mini Bus</option>
+<option>25 Seater Mini Bus</option>
+<option>30 Seater Mini Bus</option>
+<option>35 Seater Mini Bus</option>
+
+{/* Luxury Bus */}
+<option>35 Seater Luxury Bus</option>
+<option>40 Seater Luxury Bus</option>
+<option>45 Seater Luxury Bus</option>
+<option>52 Seater Luxury Bus</option>
+
+{/* Premium */}
+<option>Mercedes Luxury Coach</option>
+<option>Volvo Multi Axle Bus</option>
+<option>Scania Luxury Bus</option>
                 </select>
 
               </div>
