@@ -10,6 +10,7 @@ import WhyChooseUs from '../pages/WhyChooseUs ';
 import WorkingSteps from '../pages/WorkingSteps ';
 import Testimonials from '../pages/Testimonials';
 import BlogSection from '../pages/BlogSection';
+import VideoSlider from './VideoSlider';
 
 
 
@@ -19,7 +20,8 @@ const HeroSection = () => {
   return (
 
     <div className="th-hero-wrapper hero-1" id="hero">
-              <Carousel/>
+              {/* <Carousel/> */}
+              <VideoSlider/>
               <WideRangeSection/>
               <ExploreBrandsSection/>
               {/* <ClientSlider/> */}

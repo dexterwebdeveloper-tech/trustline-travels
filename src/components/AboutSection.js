@@ -47,6 +47,8 @@ const AboutSection = () => {
   </h2>
 
   <div className="section-head-detail">
+    Trustline Travels has been providing reliable and professional cab services since 2019, earning the trust of thousands of customers with safe, comfortable, and affordable travel solutions. With years of experience in the travel industry, we have become one of the preferred taxi service providers for Pune to Mumbai and Mumbai to Pune journeys.
+    <br/>
     Trustline Travels is one of the leading cab service providers for Pune to
     Mumbai and Mumbai to Pune travel. We are committed to providing safe,
     reliable, and affordable taxi services for individuals, families,
@@ -98,7 +100,7 @@ const AboutSection = () => {
       Online & Phone Booking Available
     </li>
 
-    <li>
+    {/* <li>
       <i className="fa fa-check"></i>
       Corporate & Family Travel Solutions
     </li>
@@ -106,7 +108,7 @@ const AboutSection = () => {
     <li>
       <i className="fa fa-check"></i>
       Door-to-Door Pickup & Drop Service
-    </li>
+    </li> */}
   </ul>
 </div>
 
