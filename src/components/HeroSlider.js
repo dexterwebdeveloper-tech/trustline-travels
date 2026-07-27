@@ -11,6 +11,7 @@ import WorkingSteps from '../pages/WorkingSteps ';
 import Testimonials from '../pages/Testimonials';
 import BlogSection from '../pages/BlogSection';
 import VideoSlider from './VideoSlider';
+import BookingForm from '../pages/BookingForm';
 
 
 
@@ -22,6 +23,7 @@ const HeroSection = () => {
     <div className="th-hero-wrapper hero-1" id="hero">
               {/* <Carousel/> */}
               <VideoSlider/>
+              <BookingForm/>
               <WideRangeSection/>
               <ExploreBrandsSection/>
               {/* <ClientSlider/> */}
